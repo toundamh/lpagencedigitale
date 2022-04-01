@@ -1,0 +1,33 @@
+.slider{height: 20vh;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+    
+.slider h2 {
+    text-shadow:1px 1px 1px black;
+    @media (min-width: 576px)
+        }
+}
+
+@media (min-width: 576px) { 
+    .slider{
+      grid-template-columns: 1fr 1fr;
+    }
+   }
+   @media (min-width: 768px) {
+     .slider{
+  
+    }
+  
+  
+  @media (min-width: 992px) { ... }
+  
+  
+  @media (min-width: 1200px) { ... }
+  
+  
+  @media (min-width: 1400px) { ... }
